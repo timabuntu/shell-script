@@ -5,3 +5,6 @@ cd ~
 
 echo "Aonde eu estou?"
 pwd
+
+echo "Lista o que tem dentro deste diretório"
+ls
