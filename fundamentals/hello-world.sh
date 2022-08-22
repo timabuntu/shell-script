@@ -1,3 +1,7 @@
 #!/usr/bin/env bash
 
-cd /home/timabuntu
+echo "Entrando no diretório:"
+cd ~
+
+echo "Aonde eu estou?"
+pwd
