@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-echo "Hello Friends!"
+cd /home/timabuntu
