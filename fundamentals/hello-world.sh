@@ -1,10 +1,19 @@
 #!/usr/bin/env bash
 
-echo "Entrando no diretório:"
-cd ~
+#? Todas essas execuções são feitas no Shell filho
 
 echo "Aonde eu estou?"
+cd /
 pwd
 
-echo "Lista o que tem dentro deste diretório"
-ls
+echo "Aonde eu estou?"
+cd /home
+pwd
+
+echo "Aonde eu estou?"
+cd /home/fast
+pwd
+
+echo "Aonde eu estou?"
+cd /home/fast/timabuntu
+pwd
