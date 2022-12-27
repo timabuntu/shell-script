@@ -11,8 +11,8 @@ jobs:
     - uses: actions/checkout@v2
     - name: Approve shell script pull request
       run: |
-        git config --global user.email "action@github.com"
-        git config --global user.name "GitHub Action"
+        git config --global user.email "timabuntu@gmail.com"
+        git config --global user.name "thiago lopes de mello"
         git remote set-url origin https://x-access-token:${{ secrets.PULL_TOKEN }}@github.com/${{ github.repository }}.git
         git fetch
         git checkout ${{ github.head_ref }}
